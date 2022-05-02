@@ -16,10 +16,10 @@ Transportation Provider
 
 **Implementation**
 - `factory` (package)
-  - `ITransportFactory` (factory interface with contract for transport instantiation)
-  - `CarTransportFactory` (concrete factory complying with interface that instantiate car transport)
-  - `BoatTransportFactory` (concrete factory complying with interface that instantiate boat transport)
-  - `PlaneTransportFactory` (concrete factory complying with interface that instantiate plane transport)
+  - `ITransportFactory.java` (factory interface with contract for transport instantiation)
+  - `CarTransportFactory.java` (concrete factory complying with interface that instantiate car transport)
+  - `BoatTransportFactory.java` (concrete factory complying with interface that instantiate boat transport)
+  - `PlaneTransportFactory.java` (concrete factory complying with interface that instantiate plane transport)
 - `object` (package)
   - `Transport.java` (abstract class template for concrete transport implementations)
   - `boat` (package)
