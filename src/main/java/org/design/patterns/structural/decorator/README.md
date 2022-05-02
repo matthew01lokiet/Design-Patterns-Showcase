@@ -20,8 +20,8 @@ Package Configuration
     - `DefaultPackage.java` (concrete `Package.java` implementation with properties configuration set up during initialization)
   - `decoration` (package)
     - `PackageDecorator.java` (abstract class that extends `Package.java`, but also injects object of this class)
-    - `InternationalPackage.java` (concrete `PackageDecorator.java` implementation which provides additional behaviour for properties)
-    - `GiftPackage.java` (concrete `PackageDecorator.java` implementation which provides additional behaviour for properties)
+    - `InternationalPackage.java` (concrete `PackageDecorator.java` implementation which provides additional behaviour for retrieved properties)
+    - `GiftPackage.java` (concrete `PackageDecorator.java` implementation which provides additional behaviour for retrieved properties)
 
 **Usage Showcase**
 - `PackageTest.java`
