@@ -11,6 +11,9 @@ into reusable functionalities
 ### Provided Example
 No example!
 Picture is worth more than the thousand words (in this case `Compiler` provides exposed functionality).
+
+
 ![](http://www.cs.unc.edu/~stotts/GOF/hires/Pictures/facad058.gif)
 
-Picture from the book `Gang of Four Design Patterns` (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)
+
+Source: `Gang of Four Design Patterns` (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)
