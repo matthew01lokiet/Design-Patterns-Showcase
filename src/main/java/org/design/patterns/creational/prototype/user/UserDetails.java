@@ -13,7 +13,7 @@ class UserDetails implements Cloneable{
 
     @Override
     protected Object clone() throws CloneNotSupportedException {
-        // shallow copy
+        // shallow copy will work
         return super.clone();
     }
 }
