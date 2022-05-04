@@ -5,8 +5,8 @@
 - Works by wrapping one of the chosen interfaces with `Adapter` object, which complies with the interface of another one.
 
 ## Use Cases
-- Useful for 3rd libraries, where you cannot modify their interfaces, but you need to collaborate with them
-- Useful for cooperating with legacy code that is deprecated, but cannot be removed or changed
+- Useful for 3rd libraries, where you cannot modify their interfaces, but you need to collaborate with them.
+- Useful for cooperating with legacy code that is deprecated, but cannot be removed or changed.
 
 ### Provided Example
 Universities Data Analytics

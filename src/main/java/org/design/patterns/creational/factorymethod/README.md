@@ -1,15 +1,14 @@
 # Factory Method
 
 ## Characteristics
-- Outsources object (`Product`) ❗**instantiation logic**❗ to factory (`Producer`)
-- Aims to provide flexibility by allowing ❗**factory (`Producer`) extensions with concrete implementations**❗
-that return ❗**concrete object (`Product`) implementations**❗ 
+- Outsources object (`Product`) instantiation logic to factory (`Producer`).
+- Aims to provide flexibility by allowing factory (`Producer`) extensions with concrete implementations
+that return concrete object (`Product`) implementations.
 
 ## Use Cases
-- When object instantiation process is complicated (plays nicely with dependency injection) and client code provides
-small number of parameters for construction
+- When object instantiation process is complicated.
 - When you anticipate that there might be more that one concrete object type and client code might want to interchange
-object types (e.g. object type might be chosen or changed during runtime depending on some condition)
+object types (e.g. object type might be chosen or changed during runtime depending on some condition).
 
 ### Provided Example
 Transportation Provider
@@ -17,9 +16,9 @@ Transportation Provider
 **Implementation**
 - `factory` (package)
   - `ITransportFactory.java` (factory interface with contract for transport instantiation)
-  - `CarTransportFactory.java` (concrete factory complying with interface that instantiate car transport)
-  - `BoatTransportFactory.java` (concrete factory complying with interface that instantiate boat transport)
-  - `PlaneTransportFactory.java` (concrete factory complying with interface that instantiate plane transport)
+  - `CarTransportFactory.java` (concrete factory complying with interface that instantiates car transport)
+  - `BoatTransportFactory.java` (concrete factory complying with interface that instantiates boat transport)
+  - `PlaneTransportFactory.java` (concrete factory complying with interface that instantiates plane transport)
 - `object` (package)
   - `Transport.java` (abstract class template for concrete transport implementations)
   - `boat` (package)
