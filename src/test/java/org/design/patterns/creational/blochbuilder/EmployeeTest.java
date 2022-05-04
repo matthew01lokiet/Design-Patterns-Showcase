@@ -20,6 +20,7 @@ class EmployeeTest {
         assertThat(employee.getCompensation()).isEqualTo(4000);
         assertThat(employee.getVacationDays()).isEqualTo(28);
         assertThat(employee.getWeeklyEmploymentHours()).isEqualTo(40);
+        System.out.println(employee);
     }
 
     @Test
@@ -36,5 +37,6 @@ class EmployeeTest {
         assertThat(employee.getCompensation()).isEqualTo(8000);
         assertThat(employee.getVacationDays()).isEqualTo(60);
         assertThat(employee.getWeeklyEmploymentHours()).isEqualTo(60);
+        System.out.println(employee);
     }
 }
