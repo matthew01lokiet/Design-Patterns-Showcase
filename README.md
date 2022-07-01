@@ -27,7 +27,7 @@ Each design pattern package consists of short `README.md`, pattern implementatio
 - **Abstract Factory**:
     - When factory method is not enough and you are able to distinguish more than one family of related objects.
 - **Joshua Bloch Builder**:
-    - When object constructor consist of many parameters (if some parameters are optional but others are required, it's strong indicator to use this pattern).
+    - When object constructor consists of many parameters (if some parameters are optional but others are required, it's strong indicator to use this pattern).
 - **Prototype**:
     - When you want to outsource cloning logic from client side into object class itself (e.g. it might be too complicated to bother client).
     - When you want to make cloneable objects not dependable on theirs concrete classes.
