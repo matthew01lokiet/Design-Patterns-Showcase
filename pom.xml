@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.design.patterns</groupId>
-    <artifactId>Java-design-patterns-showcase</artifactId>
+    <artifactId>Design-patterns-showcase</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
