@@ -49,7 +49,3 @@ Each design pattern package consists of short `README.md`, pattern implementatio
 - **Decorator**:
     - When you want to compose different configurations of the object, but inheritance would be too strict.
     - When you want to attach new behaviour to the object dynamically during runtime.
-
-## Sources
-- [Alexander Shvets Design Patterns](https://refactoring.guru/design-patterns/catalog)
-- [Christopher Okhravi YT Playlist](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc) 
